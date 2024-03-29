@@ -11,3 +11,7 @@ body{
 .cyan, footer{
     background-color: cyan;
 }
+
+footer h4{
+    padding-left: 150px;
+}
