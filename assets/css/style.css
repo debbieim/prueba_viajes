@@ -8,7 +8,7 @@ body{
     color: white;
 }
 
-.cyan, footer{
+.cyan, footer, .card-body{
     background-color: cyan;
 }
 
