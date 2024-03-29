@@ -29,13 +29,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 ms-auto me-5 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-light" href="#">Acerca de mi</a>
+          <a class="nav-link active text-light" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light" href="#">Trabajos</a>
+          <a class="nav-link active text-light" href="#quienes-somos">Quiénes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-light" href="#">Contacto</a>
+          <a class="nav-link active text-light" href="#destacados">Destacados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -69,8 +72,8 @@
 </header>
 
 <!-- Quiénes somos -->
-<section id="quienes-somos">
-<div class="container ">
+<section id="quienes-somos" class="d-none d-sm-flex">
+<div class="container">
   <h3 class="text-center pt-5 text-uppercase">Quiénes somos</h3>
     <div class="py-3">
       <hr class="border border-white ">
@@ -92,13 +95,14 @@
   </div>
  </section>
 
- <!-- Destacados  -->
+ <!-- Destacados Card -->
 <section id="destacados">
   <div class="container">
     <h3 class="text-center pt-5 text-uppercase">Destacados</h3>
      <div class="py-3">
         <hr class="border border-white ">
      </div>
+
         <div class="row">
 
             <div class="col-3">
@@ -113,7 +117,7 @@
 
             <div class="col-3">
               <div class="card" style="width: 18rem;">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="..." width="286px" height="190px">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -141,15 +145,15 @@
               </div>
             </div>
 
-    </div>
+       </div>
   </div>
 </section>
 
-<section id="formulario" class="container pt-5 mt-3">
+<section id="contacto" class="container pt-3 mt-3">
       <h3 class="text-center pt-5 text-uppercase">Contacto</h3>
       <div class="py-3"><hr class="border border-white "></div>
 
-        <form action="" class="pt-4">
+        <form action="" class="pt-3">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" ">
@@ -163,25 +167,32 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="text-end ">
-                <button type="submit" class="btn btn-info text-dark bg-cyan my-5 float-start"> Enviar</button>
+                <button type="submit" class="btn btn-info text-dark bg-cyan my-5"> Enviar</button>
             </div>
         </form>
-    </section>
-
-
-
-
-
-
-  </div>
 </section>
 
 
+<footer class="text-white py-4">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <!-- Texto a la Izquierda -->
+    <div>
+      <h3 class="text-white text">Texto a la Izquierda</h3>
+    </div>
+    <!--Redes Sociales a la Derecha -->
+    <div class="text-end">
+      <a href="#" class="text-white me-3"><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="text-white me-3"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="text-white me-3"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </div>
+</footer>
 
 
 
 
 
+ 
 
 
 
